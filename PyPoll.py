@@ -67,10 +67,10 @@ with open(file_to_save, "w") as txt_file:
         # Retrieve vote count of a candidate.
         votes = candidate_votes[candidate]
         # Calculate the percentage of votes.
-        vote_percentage = int(votes) / int(total_votes) * 100
+        vote_percentage = float(votes) / float(total_votes) * 100
 
         # Create a variable for candidate results
-        candidate_results = (f"{candidate}: {vote_percentage:.1f}%({votes:,})\n")
+        candidate_results = (f"{candidate}: {vote_percentage: .1f}%({votes:,})\n")
 
         # Print each candidate, their voter count and percentage to the terminal.
         print(candidate_results)
@@ -85,12 +85,13 @@ with open(file_to_save, "w") as txt_file:
 
 # Determine the winning vote count and candidate.
 # Determine if the votes are greater than the winning count.
-    if (votes > winning_count) and (vote_percentage> winning_percentage):
-        # If true then set winning_count = votes and winning_percentage = vote_percentage
-        winning_count = votes
-        winning_percentage = vote_percentage
-        # Set the winning_candidate equal to the candidate's name.
-        winning_candidate = candidate
+        if (votes > winning_count) and (vote_percentage > winning_percentage):
+            # If true then set winning_count = votes and winning_percentage = vote_percentage
+            winning_count = votes
+            # Set the winning_candidate equal to the candidate's name.
+            winning_candidate = candidate
+            winning_percentage = vote_percentage
+        
 
     # Winning candidate summary
     winning_candidate_summary = (
@@ -163,4 +164,3 @@ with open(file_to_save, "w") as txt_file:
 # print(candidate_votes)
 # Print the candidate name and percentage of votes.
         # print(f"{candidate}: received {vote_percentage: .1f}% of the vote.")
-
