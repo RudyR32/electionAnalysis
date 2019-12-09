@@ -50,4 +50,4 @@ The analysis of the election shows that:<br/>
   - Denver contributed 82.8% of the vote and 272,892 total voters.<br/>
   - Arapahoe contributed 6.7% of the vote and 11,606 total voters.<br/>
   
--	The county with the largest voter turnout was Denver.<br/>
+-	The county with the largest voter turnout was Denver.<br/> 
