@@ -45,7 +45,7 @@ The analysis of the election shows that:<br/>
   - Denver<br/>
   - Arapahoe<br/>
   
--	The county results for voter turn out were:<br/>
+- The county results for voter turn out were:<br/>
   - Jefferson contributed 10.5% of the vote and 38,855 total voters<br/>
   - Denver contributed 82.8% of the vote and 272,892 total voters.<br/>
   - Arapahoe contributed 6.7% of the vote and 11,606 total voters.<br/>
