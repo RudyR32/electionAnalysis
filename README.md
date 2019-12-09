@@ -40,7 +40,7 @@ The Election Comision is wanting the following tasks to be completed in order to
 ## Challenge Summary
 The analysis of the election shows that:<br/>
 
--	The counties that voted in the election were:<br/>
+- The counties that voted in the election were:<br/>
   - Jefferson<br/>
   - Denver<br/>
   - Arapahoe<br/>
