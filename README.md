@@ -39,12 +39,15 @@ The Election Comision is wanting the following tasks to be completed in order to
 
 ## Challenge Summary
 The analysis of the election shows that:<br/>
+
 -	The counties that voted in the election were:<br/>
   - Jefferson<br/>
   - Denver<br/>
   - Arapahoe<br/>
+  
 -	The county results for voter turn out were:<br/>
   - Jefferson contributed 10.5% of the vote and 38,855 total voters<br/>
   - Denver contributed 82.8% of the vote and 272,892 total voters.<br/>
   - Arapahoe contributed 6.7% of the vote and 11,606 total voters.<br/>
+  
 -	The county with the largest voter turnout was Denver.<br/>
