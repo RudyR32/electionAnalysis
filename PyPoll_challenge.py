@@ -94,8 +94,10 @@ with open(file_to_save, "w") as txt_file:
         f"\n"
         f"County Votes:\n"
         )
+    # Mastery: All items listed in detailed rubric print to terminal.
     # Print the election results.
     print(election_results, end="")
+    # Mastery: All items listed in detailed rubric save to the text file.
     # Save the final vote count to the text file.
     txt_file.write(election_results)
 
@@ -110,9 +112,11 @@ with open(file_to_save, "w") as txt_file:
         # Create a variable for county results
         county_results = (f"{county}: {ctvote_percentage: .1f}%({ctvotes:,})\n")
 
+        # Mastery: All items listed in detailed rubric print to terminal.
         # Print each county, its voter count and percentage to the terminal.
         print(county_results)
 
+        # Mastery: All items listed in detailed rubric save to the text file.
         # Save the county results to the text file
         txt_file.write(county_results)
 
@@ -131,8 +135,10 @@ with open(file_to_save, "w") as txt_file:
         f"----------------------\n"
         f"Largest County Turnout: {largest_county}\n"
         f"----------------------\n")
+    # Mastery: All items listed in detailed rubric print to terminal.
     # Print largest county summary
     print(largest_county_summary)
+    # Mastery: All items listed in detailed rubric save to the text file.
     # Save the largest county's name to the text file.
     txt_file.write(largest_county_summary)             
 # Determine the percentage of votes for each candidate by looping through the counts.
@@ -146,9 +152,10 @@ with open(file_to_save, "w") as txt_file:
         # Create a variable for candidate results
         candidate_results = (f"{candidate}: {vote_percentage: .1f}%({votes:,})\n")
 
+        # Mastery: All items listed in detailed rubric print to terminal.
         # Print each candidate, their voter count and percentage to the terminal.
         print(candidate_results)
-
+        # Mastery: All items listed in detailed rubric save to the text file.
         # Save the candidate results to the text file
         txt_file.write(candidate_results)
 
@@ -169,8 +176,65 @@ with open(file_to_save, "w") as txt_file:
         f"Winning Vote Count: {winning_count:,}\n"
         f"Winning Percent: {winning_percentage:.1f}%\n"
         f"----------------------\n")
+    # Mastery: All items listed in detailed rubric print to terminal.
     # Print winning candidate summary
     print(winning_candidate_summary)
+    # Mastery: All items listed in detailed rubric save to the text file.
     # Save the winning candidate's name to the text file.
     txt_file.write(winning_candidate_summary)    
     
+
+
+#Code used in the Module but not necessary for the Challenge
+
+# Using the open() function with the "w" mode we will write data to the file.
+#open(file_to_save, "w")
+# Open the election results and read the file.
+# election_data = open(file_to_load, 'r') First way to do this line
+# with open(file_to_load) as election_data:
+
+#     # To do : prefrom analysis.
+#     print(election_data)
+# Close the file
+# election_data.close()
+
+#   outfile.write("Hello World")
+    # Write some data to the file.
+    #.write("Hello World")
+    # Write three counties to the file.
+    # # Write three counties to the file.
+    # txt_file.write("Arapahoe, ")
+    # txt_file.write("Denver, ")
+#     # txt_file.write("Jefferson")
+#  Write three counties to the file.
+#     txt_file.write("Counties in the Election\n-------------------------\nArapahoe\nDenver\nJefferson")
+
+#     # Using the with statement open the file as a text file.
+# outfile = open(file_to_save, "w")
+# Using the with statement open the file as a text file.
+# with open(file_to_save, "w") as txt_file:# Close the file
+# outfile.close()
+    # Print each row in the CSV file.
+#     for row in file_reader:
+#         print(row)
+# # Using the with statement open the file as a text file.
+# with open(file_to_load) as election_data:
+
+#     # To do: Read and analyze the data her.
+# #     file_reader = csv.reader(election_data)
+
+#     # Print the header row.
+#     headers = next(file_reader)
+#     print(headers)
+# Print the totla votes.
+# print(total_votes)
+# # Print the candidate list.
+# print(candidate_options)
+# # Print the candidate list.
+# print(candidate_votes)
+# Print the candidate name and percentage of votes.
+        # print(f"{candidate}: received {vote_percentage: .1f}% of the vote.")
+# Print oun the winning candidate, vote count and percentage to the terminal         
+    # print(f"{candidate}: {vote_percentage: .1f}% ({votes:,})\n")
+# Print the candidate name and percentage of votes.
+        # print(f"{candidate}: received {vote_percentage: .1f}% of the vote.")
