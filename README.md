@@ -10,8 +10,8 @@ The Colorado Board of Elections is requesting the following tasks to be complete
 5.	Determine the winner of the election based on popular vote.<br/>
 
 ## Resouces
-•	Data Source: Election_results.csv<br/>
-•	Software: Python 3.6.1, Visual Studio Code<br/>
+-	Data Source: Election_results.csv<br/>
+-	Software: Python 3.6.1, Visual Studio Code<br/>
 
 ## Summary
 The analysis of the election show that:<br/>
@@ -19,15 +19,15 @@ The analysis of the election show that:<br/>
 -	There were 369,711 votes cast in the election.<br/>
 
 -	The candidates we:<br/>
-  -	Charles Casper Stockham<br/>
-  -	Diana DeGette<br/>
-  -	Raymon Anthony Doane<br/>
+  --	Charles Casper Stockham<br/>
+  --	Diana DeGette<br/>
+  --	Raymon Anthony Doane<br/>
 -	The candidate results were:<br/>
-  -	Charles Casper Stockham received 23.0% of the votes and 85,213 votes.<br/>
-  -	Diana DeGetter received 73.8% of the vote and 272,892 votes.<br/>
-  -	Raymon Anthony Doane received 3.1% of the vote and 11,606 votes.<br/>
+  --	Charles Casper Stockham received 23.0% of the votes and 85,213 votes.<br/>
+  --	Diana DeGetter received 73.8% of the vote and 272,892 votes.<br/>
+  --	Raymon Anthony Doane received 3.1% of the vote and 11,606 votes.<br/>
 -	The winner of the election was:<br/>
-  -	Diana DeGette, who received 73.8% of the vote and 272,892 votes.<br/>
+  --	Diana DeGette, who received 73.8% of the vote and 272,892 votes.<br/>
 
 ## Challenge Overview
 The Election Comision is wanting the following tasks to be completed in order to confirmthe voter turnout for for each county that voted in this congressional district.
@@ -38,11 +38,11 @@ The Election Comision is wanting the following tasks to be completed in order to
 ## Challenge Summary
 The analysis of the election shows that:<br/>
 -	The counties that voted in the election were:<br/>
-  -	Jefferson<br/>
-  -	Denver<br/>
-  -	Arapahoe<br/>
+  --	Jefferson<br/>
+  --	Denver<br/>
+  --	Arapahoe<br/>
 -	The county results for voter turn out were:<br/>
-  -	Jefferson contributed 10.5% of the vote and 38,855 total voters<br/>
-  -	Denver contributed 82.8% of the vote and 272,892 total voters.<br/>
-  -	Arapahoe contributed 6.7% of the vote and 11,606 total voters.<br/>
+  --	Jefferson contributed 10.5% of the vote and 38,855 total voters<br/>
+  --	Denver contributed 82.8% of the vote and 272,892 total voters.<br/>
+  --	Arapahoe contributed 6.7% of the vote and 11,606 total voters.<br/>
 -	The county with the largest voter turnout was Denver.<br/>
